@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 28px;
+}
+
+:root {
+    --btn: #dbdbdb;
+    --btn-hover: #c4c4c4;
+    --item-bg: #f0f0f0;
+    --modal-bg: rgba(141, 141, 141, 0.541);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--btn);
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--btn-hover);
+        }
+    }
+}
